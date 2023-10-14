@@ -10,8 +10,6 @@ type Props = {
 export default function Button(props: Props) {
   let { text, type, icon } = props;
 
-  console.log(text, typeof icon);
-
   return (
     <>
       <button
