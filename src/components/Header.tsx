@@ -5,13 +5,9 @@ import Link from "next/link";
 import Button from "./Button";
 
 export default function Header() {
-  let endpoint = "/";
-
-  console.log("ep: ", typeof endpoint);
-
   return (
-    <header className="h-28 w-screen center">
-      <div className="ycenter-hbetween w-10/12">
+    <header className="h-28 w-screen center fixed bg-light-color">
+      <div className="ycenter-xbetween w-10/12">
         <Link href={"/"}>
           <Image
             src={logo}
@@ -29,8 +25,8 @@ export default function Header() {
           <MenuButton name={"Dúvidas"} endpoint={"/duvidas"} />
         </ul>
         <div className="center gap-6">
-          <MenuButton name={"Login"} endpoint={"#"} />
-          <Button text={"Registrar"} />
+          <MenuButton name={"Entrar"} endpoint={"#"} />
+          <Button text={"Registrar"} type="button-1" />
         </div>
       </div>
     </header>
