@@ -2,9 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  outline: none;
+}
+
+html {
+  -webkit-tap-highlight-color: none;
+}
+
+/* select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+} */
+
 Link {
   text-decoration: none;
   list-style: none;
+}
+
+body {
+  height: 3000px;
 }
 
 /* CENTERLIZE */
@@ -19,6 +37,10 @@ Link {
 }
 .ycenter-xbetween {
   justify-content: space-between;
+}
+
+.banner {
+  padding-top: 150px;
 }
 
 /* TEXT */

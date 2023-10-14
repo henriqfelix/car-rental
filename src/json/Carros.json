@@ -1,0 +1,86 @@
+[
+  {
+    "modelo": "Kwid",
+    "marca": "Renault",
+    "ano": "2023",
+    "motor": "1.0",
+    "cambio": "Manual",
+    "portas": "4",
+    "ar": "Sim",
+    "direcao": "Elétrica",
+    "combustivel": "Flex",
+    "preco": "105"
+  },
+  {
+    "modelo": "208",
+    "marca": "Peugeot",
+    "ano": "2022",
+    "motor": "1.6",
+    "cambio": "Automático",
+    "portas": "4",
+    "ar": "Sim",
+    "direcao": "Elétrica",
+    "combustivel": "Flex",
+    "preco": "148"
+  },
+  {
+    "modelo": "Cronos",
+    "marca": "Fiat",
+    "ano": "2021",
+    "motor": "1.3",
+    "cambio": "Manual",
+    "portas": "4",
+    "ar": "Sim",
+    "direcao": "Elétrica",
+    "combustivel": "Flex",
+    "preco": "155"
+  },
+  {
+    "modelo": "Pulse",
+    "marca": "Fiat",
+    "ano": "2021",
+    "motor": "1.3",
+    "cambio": "Manual",
+    "portas": "4",
+    "ar": "Sim",
+    "direcao": "Elétrica",
+    "combustivel": "Flex",
+    "preco": "205"
+  },
+  {
+    "modelo": "T-Cross",
+    "marca": "VolksWagen",
+    "ano": "2023",
+    "motor": "1.0 TSI",
+    "cambio": "Automático",
+    "portas": "4",
+    "ar": "Sim",
+    "direcao": "Elétrica",
+    "combustivel": "Flex",
+    "preco": "214"
+  },
+  {
+    "modelo": "Jetta",
+    "marca": "VolksWagen",
+    "ano": "2023",
+    "motor": "2.0",
+    "cambio": "Manual",
+    "portas": "4",
+    "ar": "Sim",
+    "direcao": "Elétrica",
+    "combustivel": "Gasolina",
+    "preco": "294"
+  },
+  {
+    "modelo": "A3 Sportback",
+    "marca": "Audi",
+    "ano": "2023",
+    "motor": "2.0",
+    "cambio": "Manual",
+    "portas": "4",
+    "ar": "Sim",
+    "direcao": "Elétrica",
+    "combustivel": "Gasolina",
+    "preco": "382"
+  }
+]

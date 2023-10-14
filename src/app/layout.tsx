@@ -23,7 +23,6 @@ export default function RootLayout({
       <body
         className={`${roboto.className} flex justify-center bg-light-color`}
       >
-        <Header />
         {children}
       </body>
     </html>
