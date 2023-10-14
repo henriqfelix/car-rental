@@ -94,3 +94,9 @@ body {
 .button-2:hover {
   box-shadow: 0 4px 10px rgba(16, 16, 16, 0.6);
 }
+
+.icon {
+  width: 2.2em;
+  margin-right: 0.4em;
+  fill: #ed0000;
+}

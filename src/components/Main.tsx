@@ -43,9 +43,11 @@ export default function Main() {
           <SelectInput title={"Escolha seu carro"} type={"carro"} />
           <SelectInput title={"Local de retirada"} type={"unidade"} />
           <SelectInput title={"Local de entrega"} type={"unidade"} />
-          <SelectInput title={"Data de retirada"} />
-          <SelectInput title={"Data de entrega"} />
-          <Button type={"button-1"} text={"Buscar"} />
+          <SelectInput title={"Data de retirada"} type={"data"} />
+          <SelectInput title={"Data de entrega"} type={"data"} />
+          <button className="button-1 rounded-md h-12 self-end font-medium">
+            Buscar
+          </button>
         </div>
       </div>
     </main>

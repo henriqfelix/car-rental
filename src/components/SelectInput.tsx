@@ -1,6 +1,10 @@
 import carrosList from "../json/Carros.json";
 import unidadesList from "../json/Unidades.json";
 
+import { FaCarSide } from "react-icons/fa";
+import { FaLocationDot } from "react-icons/fa6";
+import { IoCalendarNumber } from "react-icons/io5";
+
 type Props = {
   title: string;
   type: string;
@@ -27,7 +31,10 @@ export default function SelectInput(props: Props) {
     <div>
       <div>
         <div className="flex flex-col">
-          <label htmlFor="car" className="font-medium">
+          <label htmlFor="car" className="font-medium flex items-center pb-2">
+            {type === "carro" && <FaCarSide className="icon" />}
+            {type === "unidade" && <FaLocationDot className="icon" />}
+            {type === "data" && <IoCalendarNumber className="icon" />}
             {title}
           </label>
           <select
