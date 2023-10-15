@@ -42,7 +42,8 @@ export default function CardVantagens(props: Props) {
   }
 
   return (
-    <div className="w-full h-60 flex items-center flex-col">
+    <div className="w-full h-60 flex items-center flex-col relative">
+      <div className="circle gradient"></div>
       <Image
         src={path}
         alt="seguranca"

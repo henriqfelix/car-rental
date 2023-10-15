@@ -6,7 +6,7 @@ import Button from "./Button";
 
 export default function Header() {
   return (
-    <header className="h-28 w-screen center fixed bg-light-color">
+    <header className="h-28 w-screen center fixed bg-light-color z-50">
       <div className="min-w-10/12 w-10/12 ycenter-xbetween">
         <Link href={"/"}>
           <Image

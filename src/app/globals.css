@@ -116,3 +116,25 @@ body {
   margin-right: 0.4em;
   fill: #ed0000;
 }
+
+.circle {
+  position: absolute;
+  left: 35%;
+  /* transform: translateX(-50%); */
+  top: -10px;
+
+  height: 80px;
+  width: 80px;
+  border-radius: 177px 126px 122px 93px;
+  -webkit-border-radius: 177px 126px 122px 93px;
+  -moz-border-radius: 177px 126px 122px 93px;
+
+  z-index: -1;
+}
+
+.gradient {
+  background: #ed0000;
+  background: linear-gradient(90deg, #ed0000 0%, #ff7500 80%);
+  background: -webkit-linear-gradient(90deg, #ed0000 0%, #ff7500 80%);
+  background: -moz-linear-gradient(90deg, #ed0000 0%, #ff7500 80%);
+}
