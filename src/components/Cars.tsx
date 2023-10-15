@@ -1,12 +1,12 @@
 "use client";
 
-import kwid from "../assets/images/kwid.png";
-import p208 from "../assets/images/208.png";
-import cronos from "../assets/images/cronos.png";
-import pulse from "../assets/images/pulse.png";
-import tcross from "../assets/images/tcross.png";
-import jetta from "../assets/images/jetta.png";
-import a3 from "../assets/images/a3.png";
+import kwid from "../assets/images/kwid.webp";
+import p208 from "../assets/images/208.webp";
+import cronos from "../assets/images/cronos.webp";
+import pulse from "../assets/images/pulse.webp";
+import tcross from "../assets/images/tcross.webp";
+import jetta from "../assets/images/jetta.webp";
+import a3 from "../assets/images/a3.webp";
 
 import { MouseEvent, useState } from "react";
 import carList from "../json/Carros.json";
@@ -17,7 +17,7 @@ export default function Cars() {
   let cars: React.JSX.Element[] = [];
 
   const [carImage, setCarImage] = useState(
-    <Image src={kwid} alt={"Kwid"} width={500}></Image>
+    <Image src={kwid} alt={"Kwid"} width={400}></Image>
   );
 
   for (const car of carList) {
