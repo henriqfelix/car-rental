@@ -3,10 +3,11 @@ import car from "../assets/images/car.png";
 import Link from "next/link";
 import Button from "./Button";
 import SelectInput from "./SelectInput";
+// import relevo from "../assets/images/relevo.png";
 
 export default function Main() {
   return (
-    <main className="w-10/12 banner ">
+    <main className="w-10/12 banner m-auto">
       <div className="grid grid-cols-2">
         <div>
           <h2 className="title">Conforto e segurança</h2>
@@ -37,14 +38,37 @@ export default function Main() {
         </div>
         <Image src={car} alt="Imagem de um carro" width={700} />
       </div>
-      <div className="h-72 w-full mt-16 p-4 bg-light-color rounded-md shadow-xl">
+      <div
+        className="h-72 w-full mt-16 p-4 bg-light-color rounded-md shadow-xl overflow-hidden
+                   bg-[url('../assets/images/relevo.png')]"
+      >
         <h2 className="title">Reservar veículo</h2>
         <div className="grid grid-cols-3 grid-rows-2 gap-4 mt-4">
-          <SelectInput title={"Escolha seu carro"} type={"carro"} />
-          <SelectInput title={"Local de retirada"} type={"unidade"} />
-          <SelectInput title={"Local de entrega"} type={"unidade"} />
-          <SelectInput title={"Data de retirada"} type={"data"} />
-          <SelectInput title={"Data de entrega"} type={"data"} />
+          <SelectInput
+            title={"Escolha seu carro"}
+            type={"select"}
+            option={"carro"}
+          />
+          <SelectInput
+            title={"Local de retirada"}
+            type={"select"}
+            option={"unidade"}
+          />
+          <SelectInput
+            title={"Local de entrega"}
+            type={"select"}
+            option={"unidade"}
+          />
+          <SelectInput
+            title={"Data de retirada"}
+            type={"date"}
+            option={"data"}
+          />
+          <SelectInput
+            title={"Data de entrega"}
+            type={"date"}
+            option={"data"}
+          />
           <button className="button-1 rounded-md h-12 self-end font-medium">
             Buscar
           </button>

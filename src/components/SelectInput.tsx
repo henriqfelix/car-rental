@@ -8,10 +8,11 @@ import { IoCalendarNumber } from "react-icons/io5";
 type Props = {
   title: string;
   type: string;
+  option: string;
 };
 
 export default function SelectInput(props: Props) {
-  const { title, type } = props;
+  const { title, type, option } = props;
   let carros = [];
   let unidades = [];
 
@@ -34,19 +35,30 @@ export default function SelectInput(props: Props) {
           <label htmlFor="car" className="font-medium flex items-center pb-2">
             {type === "carro" && <FaCarSide className="icon" />}
             {type === "unidade" && <FaLocationDot className="icon" />}
-            {type === "data" && <IoCalendarNumber className="icon" />}
+            {option === "data" && <IoCalendarNumber className="icon" />}
             {title}
           </label>
-          <select
-            name="car"
-            id="car"
-            className=" h-12 px-4 py-2 bg-light-color rounded-md text-gray-text
-                border-solid border border-gray-color focus:border-dark -color overflow-hidden
-                "
-          >
-            {type === "carro" && carros}
-            {type === "unidade" && unidades}
-          </select>
+          {type === "select" && (
+            <select
+              name="car"
+              id="car"
+              className=" h-12 px-4 py-2 bg-light-color rounded-md text-gray-text
+                  border-solid border border-gray-color focus:border-dark -color overflow-hidden
+                  "
+            >
+              {option === "carro" && carros}
+              {option === "unidade" && unidades}
+            </select>
+          )}
+          {type === "date" && (
+            <input
+              type="date"
+              name="date"
+              className=" h-12 px-4 py-2 bg-light-color rounded-md text-gray-text
+                  border-solid border border-gray-color focus:border-dark -color overflow-hidden
+                  "
+            />
+          )}
         </div>
       </div>
     </div>

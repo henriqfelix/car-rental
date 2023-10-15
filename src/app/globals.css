@@ -55,15 +55,31 @@ body {
   font-weight: 900;
 }
 
+.big-title {
+  font-size: 3rem;
+  line-height: 4.2rem;
+  font-weight: 900;
+}
+
 .title {
   font-size: 1.6rem;
   font-weight: 600;
+}
+
+.sub-title {
+  font-size: 1.2rem;
+  font-weight: 500;
 }
 
 .additional-text {
   font-size: 1rem;
   font-weight: 400;
   color: #8a8a8a;
+}
+.additional-text {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #737373;
 }
 
 .emphasis {
