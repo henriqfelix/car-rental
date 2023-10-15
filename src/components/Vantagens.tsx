@@ -2,12 +2,12 @@ import CardVantagens from "./CardVantagens";
 
 export default function Vantagens() {
   return (
-    <section className="w-10/12 mx-auto mt-32">
+    <section className="w-10/12 mx-auto pt-32">
       <div className="center flex-col">
-        <span className="sub-title">Confira algumas de nossas vantagens</span>
         <h1 className="big-title mt-2">Desfrute do melhor</h1>
+        <span className="sub-title">Confira algumas de nossas vantagens</span>
       </div>
-      <div className="grid grid-cols-3 grid-rows-2 w-full gap-2 mt-12">
+      <div className="grid grid-cols-3 grid-rows-2 w-full gap-4 mt-20">
         <CardVantagens
           title={"Segurança"}
           text={

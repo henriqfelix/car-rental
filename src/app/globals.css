@@ -110,6 +110,32 @@ body {
 .button-2:hover {
   box-shadow: 0 4px 10px rgba(16, 16, 16, 0.6);
 }
+.car-button {
+  width: 100%;
+  height: 4em;
+
+  font-weight: 500;
+
+  background: #e8e8e8;
+}
+.car-button:hover {
+  background: #d4d4d4;
+}
+.car-button.car-selected {
+  font-weight: 700;
+  color: white;
+
+  background: #ed0000;
+  background: linear-gradient(90deg, #ed0000 0%, #ff7500 80%);
+  background: -webkit-linear-gradient(90deg, #ed0000 0%, #ff7500 80%);
+  background: -moz-linear-gradient(90deg, #ed0000 0%, #ff7500 80%);
+}
+.car-button:nth-child(1) {
+  border-radius: 20px 0 0 0;
+}
+.car-button:last-child {
+  border-radius: 0 0 0 20px;
+}
 
 .icon {
   width: 2.2em;
