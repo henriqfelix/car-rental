@@ -15,12 +15,6 @@ import carList from "../json/Carros.json";
 
 import Image, { StaticImageData } from "next/image";
 
-interface Data {
-  title: React.JSX.Element[];
-  data: React.JSX.Element[];
-  prevState: null;
-}
-
 export default function Cars() {
   let cars: React.JSX.Element[] = [];
 
@@ -28,8 +22,8 @@ export default function Cars() {
     <Image src={kwid} alt={"Kwid"} width={400}></Image>
   );
 
-  const [titleColumn, setTitleColumn] = useState<Data | null>();
-  const [dataColumn, setDataColumn] = useState<Data | null>();
+  const [titleColumn, setTitleColumn] = useState<React.JSX.Element[]>();
+  const [dataColumn, setDataColumn] = useState<React.JSX.Element[]>();
 
   for (const car of carList) {
     cars.push(
@@ -108,8 +102,6 @@ export default function Cars() {
   };
 
   const createTitleTable = () => {
-    let titleList: React.JSX.Element[] = [];
-
     const titles = [
       "Diária:",
       "Modelo:",
@@ -122,6 +114,8 @@ export default function Cars() {
       "Direção:",
       "Combustível:",
     ];
+
+    let titleList: React.JSX.Element[] = [];
 
     for (const title of titles) {
       titleList.push(
