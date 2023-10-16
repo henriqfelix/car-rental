@@ -103,38 +103,64 @@ body {
   box-shadow: 0 4px 10px rgba(237, 0, 0, 0.6);
 }
 .button-2 {
-  background-color: #101010;
+  background-color: #202020;
   color: #fff;
   box-shadow: 0 4px 10px rgba(16, 16, 16, 0.3);
 }
 .button-2:hover {
   box-shadow: 0 4px 10px rgba(16, 16, 16, 0.6);
 }
+.car-button,
+.table-field {
+  background: #f8f8f8;
+}
 .car-button {
   width: 100%;
   height: 4em;
 
   font-weight: 500;
-
-  background: #e8e8e8;
 }
 .car-button:hover {
-  background: #d4d4d4;
+  background: #e8e8e8;
 }
 .car-button.car-selected {
   font-weight: 700;
   color: white;
 
-  background: #ed0000;
-  background: linear-gradient(90deg, #ed0000 0%, #ff7500 80%);
-  background: -webkit-linear-gradient(90deg, #ed0000 0%, #ff7500 80%);
-  background: -moz-linear-gradient(90deg, #ed0000 0%, #ff7500 80%);
+  background-color: #101010;
 }
 .car-button:nth-child(1) {
   border-radius: 20px 0 0 0;
 }
 .car-button:last-child {
   border-radius: 0 0 0 20px;
+}
+
+.table-field {
+  cursor: default;
+  display: flex;
+  align-items: center;
+}
+.table-title,
+.table-data {
+  padding: 0 0.8em;
+  font-weight: 500;
+}
+.table-data {
+  font-weight: 400;
+}
+.table-title:nth-child(1),
+.table-data:nth-child(1) {
+  font-weight: 700;
+  color: white;
+
+  background-color: #202020;
+}
+.table-data:nth-child(1) {
+  border-radius: 0 20px 0 0;
+}
+.table-data:last-child {
+  border-radius: 0 0 20px 0;
 }
 
 .icon {
@@ -163,4 +189,10 @@ body {
   background: linear-gradient(90deg, #ed0000 0%, #ff7500 80%);
   background: -webkit-linear-gradient(90deg, #ed0000 0%, #ff7500 80%);
   background: -moz-linear-gradient(90deg, #ed0000 0%, #ff7500 80%);
+}
+
+.shadow {
+  box-shadow: -1px 3px 10px 0px rgba(0, 0, 10px, 0.1);
+  -webkit-box-shadow: -1px 3px 10px 0px rgba(0, 0, 10px, 0.1);
+  -moz-box-shadow: -1px 3px 10px 0px rgba(0, 0, 10px, 0.1);
 }

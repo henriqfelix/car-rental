@@ -1,5 +1,6 @@
 [
   {
+    "preco": "105",
     "modelo": "Kwid",
     "marca": "Renault",
     "ano": "2023",
@@ -8,10 +9,10 @@
     "portas": "4",
     "ar": "Sim",
     "direcao": "Elétrica",
-    "combustivel": "Flex",
-    "preco": "105"
+    "combustivel": "Flex"
   },
   {
+    "preco": "148",
     "modelo": "208",
     "marca": "Peugeot",
     "ano": "2022",
@@ -20,10 +21,10 @@
     "portas": "4",
     "ar": "Sim",
     "direcao": "Elétrica",
-    "combustivel": "Flex",
-    "preco": "148"
+    "combustivel": "Flex"
   },
   {
+    "preco": "155",
     "modelo": "Cronos",
     "marca": "Fiat",
     "ano": "2021",
@@ -32,10 +33,10 @@
     "portas": "4",
     "ar": "Sim",
     "direcao": "Elétrica",
-    "combustivel": "Flex",
-    "preco": "155"
+    "combustivel": "Flex"
   },
   {
+    "preco": "205",
     "modelo": "Pulse",
     "marca": "Fiat",
     "ano": "2021",
@@ -44,10 +45,10 @@
     "portas": "4",
     "ar": "Sim",
     "direcao": "Elétrica",
-    "combustivel": "Flex",
-    "preco": "205"
+    "combustivel": "Flex"
   },
   {
+    "preco": "214",
     "modelo": "T-Cross",
     "marca": "Volkswagen",
     "ano": "2023",
@@ -56,10 +57,10 @@
     "portas": "4",
     "ar": "Sim",
     "direcao": "Elétrica",
-    "combustivel": "Flex",
-    "preco": "214"
+    "combustivel": "Flex"
   },
   {
+    "preco": "294",
     "modelo": "Jetta",
     "marca": "Volkswagen",
     "ano": "2023",
@@ -68,10 +69,10 @@
     "portas": "4",
     "ar": "Sim",
     "direcao": "Elétrica",
-    "combustivel": "Gasolina",
-    "preco": "294"
+    "combustivel": "Gasolina"
   },
   {
+    "preco": "382",
     "modelo": "A3 Sportback",
     "marca": "Audi",
     "ano": "2023",
@@ -80,7 +81,6 @@
     "portas": "4",
     "ar": "Sim",
     "direcao": "Elétrica",
-    "combustivel": "Gasolina",
-    "preco": "382"
+    "combustivel": "Gasolina"
   }
 ]

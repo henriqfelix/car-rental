@@ -15,6 +15,10 @@ const config: Config = {
         "gray-color": "#C9C9C9",
         "gray-text": "#8A8A8A",
       },
+      gridTemplateRows: {
+        // Simple 8 row grid
+        "11": "repeat(11, minmax(0, 1fr))",
+      },
     },
   },
   plugins: [],
